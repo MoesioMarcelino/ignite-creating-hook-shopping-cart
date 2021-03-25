@@ -72,7 +72,7 @@ Rocketshoes is an application developed with challenge on trail ReactJS from Ign
 -  [styled-components](https://www.styled-components.com/)
 -  [React-Icons](https://react-icons.netlify.com/)
 -  [json-server](https://github.com/typicode/json-server)
--  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
+-  [VS Code](https://code.visualstudio.com) with [EditorConfig](https://editorconfig.org) and [ESLint](https://eslint.org)
 
 <div id="requirements" ></div>
 
