@@ -6,6 +6,8 @@ import { api } from '../../services/api';
 import { formatPrice } from '../../util/format';
 import { useCart } from '../../hooks/useCart';
 
+import { products as productsServed } from '../../server.json';
+
 interface Product {
   id: number;
   title: string;
@@ -30,18 +32,25 @@ const Home = (): JSX.Element => {
     return sumAmount;
   }, {} as CartItemsAmount);
 
-  console.log(cartItemsAmount);
-
   useEffect(() => {
     async function loadProducts() {
-      const { data: productsReturned } = await api.get('/products');
+      if (process.env.NODE_ENV !== 'production') {
+        const { data: productsReturned } = await api.get('/products');
 
-      setProducts(
-        productsReturned.map((product: Product) => ({
-          ...product,
-          priceFormatted: formatPrice(product.price),
-        }))
-      );
+        setProducts(
+          productsReturned.map((product: Product) => ({
+            ...product,
+            priceFormatted: formatPrice(product.price),
+          }))
+        );
+      } else {
+        setProducts(
+          productsServed.map((product: Product) => ({
+            ...product,
+            priceFormatted: formatPrice(product.price),
+          }))
+        );
+      }
     }
 
     loadProducts();
