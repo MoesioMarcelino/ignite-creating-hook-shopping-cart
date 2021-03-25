@@ -1,6 +1,7 @@
 
 <p align="center">
   <img id="top" src="./src/assets/images/logo.svg" alt="Logo RocketShoes" />
+	
 </p>
 
 <hr>
@@ -23,7 +24,11 @@
   <img alt="RocketShoes" width="100%" title="#RocketShoes" src="https://user-images.githubusercontent.com/37598129/112547655-cafca600-8d99-11eb-98d8-eddf4ec26d23.GIF" />
 </h1>
 
-<h2 align="center">Status</h2>
+<h2 align="center" styles="display: flex; align-items: center">
+	Status | 
+	<img src="https://api.netlify.com/api/v1/badges/97fa61a2-829e-43ea-97b3-1325c4bacb44/deploy-status" />
+</h2>
+
 
 <h4 align="center"> 
 	<p align="center">
@@ -66,7 +71,6 @@ Rocketshoes is an application developed with challenge on trail ReactJS from Ign
 -  [ReactJS](https://reactjs.org/)
 -  [React Router](https://github.com/ReactTraining/react-router)
 -  [Axios](https://github.com/axios/axios)
--  [History](https://www.npmjs.com/package/history)
 -  [Polished](https://polished.js.org/)
 -  [React-Toastify](https://fkhadra.github.io/react-toastify/)
 -  [styled-components](https://www.styled-components.com/)
