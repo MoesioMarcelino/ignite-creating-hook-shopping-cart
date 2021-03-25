@@ -15,7 +15,8 @@
   <a href="#techs">Technologies</a> &#xa0; | &#xa0;
   <a href="#requirements">Requeriments</a> &#xa0; | &#xa0;
   <a href="#start">Start</a> &#xa0; | &#xa0;
-  <a href="https://moesiomarcelino.dev" target="_blank">Author</a>
+  <a href="https://moesiomarcelino.dev" target="_blank">Author</a> &#xa0; | &#xa0;
+  <a href="https://rocketshoes.moesiomarcelino.dev" target="_blank">Demo</a>
 </p>
 
 <br>
