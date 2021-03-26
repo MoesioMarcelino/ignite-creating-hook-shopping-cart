@@ -42,7 +42,7 @@
   </a>
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/moesiomarcelino/ignite-creating-hook-shopping-cart.svg">
-  <a href="https://github.com/lukemorales/react-rocketshoes/commits/master">
+  <a href="https://github.com/moesiomarcelino/ignite-creating-hook-shopping-cart/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/moesiomarcelino/ignite-creating-hook-shopping-cart.svg">
   </a>
 
